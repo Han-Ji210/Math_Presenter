@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
             tagElement.textContent = tagName;
             tagElement.classList.add('tag');
 
-            // 배경색과 투명도 설정
             let backgroundColor;
             if (category === 0) {
                 backgroundColor = `rgba(25, 185, 155, ${difficulty})`;
@@ -30,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             tagElement.style.backgroundColor = backgroundColor;
-            tagElement.style.color = 'black';  // 글씨 색은 항상 검정색
-
+            tagElement.style.color = 'black';  
+            
             tagsElement.appendChild(tagElement);
         });
 
