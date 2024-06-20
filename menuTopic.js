@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const [topicName, tagIndexes] = topic;
         const topicElement = document.createElement('a');
         topicElement.classList.add('topic');
-        topicElement.href = `topic.html?index=${topicIndex}`;
+        topicElement.href = `topicBody.html?index=${topicIndex}`;
 
         const topicNameElement = document.createElement('div');
         topicNameElement.textContent = topicName;
